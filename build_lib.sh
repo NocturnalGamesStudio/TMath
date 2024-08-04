@@ -15,6 +15,6 @@ gcc $inc -c $src_files -std=c17
 
 objs="$(find -iname "*.o" -print0 | xargs -0)"
 
-ar rcs ./out/lib $objs
+ar rcs ./out/tmath.a $objs
 
 rm *.o
