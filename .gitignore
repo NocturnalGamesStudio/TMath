@@ -1,2 +1,5 @@
 *.code-workspace
 ./out
+./out/*
+.exe
+.a
