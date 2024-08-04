@@ -14,8 +14,11 @@ There are simple shell scripts included, but they require either a normal linux 
 I don't know how to use make or CMake but it should be easy to set up with this project since there's no OS specific code.
 
 `build_lib.sh` - Build the static library
+
 `build_tests.sh` - Builds tests
+
 `build.sh` - Builds both the static library and tests
+
 `run.sh` - Builds the static library, tests and then runs the tests
 
 
