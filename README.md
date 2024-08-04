@@ -23,4 +23,4 @@ gcc ./src/main.c ./libs/tmath.a -I./inc/tmath
 Where `./main.c` is your file(s), `./libs/tmath.a` is the tmath library and `-I./inc/tmath` is the directory you copied the header files into.
 
 ## Documentation
-Check the wiki for documentation
+Check the [wiki](https://github.com/NocturnalGamesStudio/TMath/wiki) for documentation.
