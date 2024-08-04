@@ -13,6 +13,11 @@ This is a simple C library I've made for making games, but much of it is missing
 There are simple shell scripts included, but they require either a normal linux shell or something like MinGW bash.
 I don't know how to use make or CMake but it should be easy to set up with this project since there's no OS specific code.
 
+`build_lib.sh` - Build the static library
+`build_tests.sh` - Builds tests
+`build.sh` - Builds both the static library and tests
+`run.sh` - Builds the static library, tests and then runs the tests
+
 
 ## Linking
 When building with the shell scripts it should output a single file (`tmath.a`) you can include when building your project, you also need to copy the header files wherever you want.
